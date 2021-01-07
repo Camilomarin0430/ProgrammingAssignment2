@@ -3,6 +3,8 @@
 
 ## Crea un objeto de matriz especial que puede almacenar en caché su inverso
 
+library(MASS)
+
 makeCacheMatrix <- function(x = matrix()) {
   
   ## Inicializa la propiedad inversa
